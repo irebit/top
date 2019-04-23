@@ -26,10 +26,10 @@ type TbkItemInfo struct {
 	SellerId        int                 `json:"seller_id"`
 	Volume          int                 `json:"volume"`
 	Nick            string              `json:"nick"`
-	cat_leaf_name   string              `json:"cat_leaf_name"`
-	is_prepay       string              `json:"is_prepay"`
+	CatLeafName     string              `json:"cat_leaf_name"`
+	IsPrepay        string              `json:"is_prepay"`
 	ShopDsr         int                 `json:"shop_dsr"`
-	ratesum         int                 `json:"ratesum"`
+	Ratesum         int                 `json:"ratesum"`
 	IRfdRate        bool                `json:"i_rfd_rate"`
 	HGoodRate       bool                `json:"h_good_rate"`
 	HPayRate30      bool                `json:"h_pay_rate30"`
