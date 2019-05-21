@@ -19,7 +19,7 @@ type TbkItemInfo struct {
 	PictUrl         string              `json:"pict_url"`
 	SmallImages     map[string][]string `json:"small_images"`
 	ReservePrice    string              `json:"reserve_price"`
-	XkFinalPrice    string              `json:"zk_final_price"`
+	ZkFinalPrice    string              `json:"zk_final_price"`
 	UserType        int                 `json:"user_type"`
 	Provcity        string              `json:"provcity"`
 	ItemUrl         string              `json:"item_url"`
