@@ -63,4 +63,6 @@ type TbkOrderDetailsItem struct {
 	SellerShopTitle     string `json:"seller_shop_title"`
 	IncomeRate          string `json:"income_rate"`
 	TotalCommissionFee  string `json:"total_commission_fee"`
+	RelationId          int    `json:"relation_id"`
+	SpecialId           int    `json:"special_id"`
 }

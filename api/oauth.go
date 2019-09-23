@@ -9,8 +9,8 @@ import (
 )
 
 var (
-	TaobaoOauthUrl = "https://oauth.taobao.com/authorize"
-	TaobaoTokenUrl = "https://oauth.taobao.com/token"
+	TaobaoOauthUrl = "https://oauth.m.taobao.com/authorize"
+	TaobaoTokenUrl = "https://oauth.m.taobao.com/token"
 )
 
 type Oauth struct {
